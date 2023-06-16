@@ -1,0 +1,211 @@
+#page{
+    background-color: white;
+    color: black;
+    background-attachment: local;
+    list-style-type: none;
+    margin: 5px ,5px ,5px;
+    padding: 4px;
+    scroll-behavior: smooth;
+    scrollbar-arrow-color: rebeccapurple;
+    scroll-snap-type: mandatory;
+}
+body{
+    background-color: darkslateblue;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(lightcyan), to(rebeccapurple));
+    background-image: -webkit-linear-gradient(top, lightcyan, rebeccapurple);
+    background-image: -moz-linear-gradient(top, lightcyan, rebeccapurple);
+    background-image: linear-gradient(to bottom,lightcyan, rebeccapurple );
+    color: black;
+    lighting-color: rebeccapurple;
+    background-clip: padding-box, content-box;
+    background-attachment: local;
+    list-style-type: none;
+    margin: 5px ,5px ,5px;
+    padding: 4px;
+    scroll-behavior: smooth;
+    scrollbar-arrow-color: rebeccapurple;
+    scroll-snap-type: mandatory;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity, hard-light;
+    width: 100%;
+}
+/*style the header*/
+header{
+    color: black;
+    zoom: initial;
+}
+nav{
+    color: black;
+    margin: 7.5px;
+    padding: 4px;
+    transition: .3s linear background;
+    border-radius: 10px;
+    border: salmon, outset;
+    position: center;
+    text-align: center;
+}
+li:hover{
+    background-color: salmon;
+}
+a{
+    text-decoration: none;
+    color: white;
+     border: salmon, dotted;
+}
+li{ 
+    display:inline-block;
+    background-color: purple;
+    margin: 5px;
+    padding: 4px;
+    transition: .3s linear background;
+    border-radius: 10px;
+    border: outset;
+    text-align: center;
+    position: static;
+}
+
+section{
+    float: right;
+    overflow: auto;
+    color: black;
+    background-color: darkslateblue;
+    opacity: 1;
+    transition: .3 linear opacity;
+}
+section:hover{
+    opacity: 1;
+}
+table{
+    width: 268px;
+    height: 360px;
+    background-color: cadetblue;
+    lighting-color: darkcyan;
+    object-fit: scale-down;
+    table-layout: auto;
+    zoom: inherit;
+}
+footer{
+    opacity: 0.8;
+    color: black;
+    padding: 5px;
+    margin: 5px, 5px, 5px, 5px;
+    text-align: center;
+    float: unset;
+    overflow: auto;
+}
+form{
+    backface-visibility: visible;
+    color: black;
+}
+#sector{
+    text-align: center;
+    float: initial;
+}
+picture{
+   overflow: scroll;
+}
+fieldset{
+    border-style: none;
+}
+menu{
+    float: top;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    color: black;
+    overflow: auto;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 0px;
+    text-align: center;
+}
+menuitem{
+    text-decoration: none, black;
+    text-justify: auto;
+    text-align: left;
+    background-color: purple;
+    margin: 5px;
+    padding: 10px;
+    border: inset;
+    border-radius: 0px;
+    transition: 0.3s linear background;
+}
+menuitem:hover{
+    background-color: salmon;
+}
+fieldset:scroll{
+    background-color: purple;
+    display: ruby-base-container;
+}
+label{
+    margin: 3px;
+    padding: 5px;
+    border-radius: 20px;
+    border: inset, lightcyan;
+    background: purple;
+    color: white;
+}
+#submit{
+    background-color: purple;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border: outset;
+    border-radius: 25px;
+    transition: .3s linear background;
+}
+#submit:hover{
+    background-color: salmon;
+}
+/* creat one column floating to the left */
+column{
+    background-color: rebeccapurple;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    float: left;
+    opacity: 0%;
+    transition: .1s linear opacity;
+}
+column:hover{
+    opacity: 100%
+}
+div{
+    align-content: inline, flex-start;
+    display: inline, contain;
+}
+/* create a container */
+container{
+    display: ruby-base-container;
+    border-block-end: outset;
+    scroll-snap-type: mandatory;
+    border-block-end-style: dashed;
+    -moz-box-direction: initial;
+    margin: 5px;
+    padding: 5px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(deeppink), to(midnightblue));
+    background-image: -webkit-linear-gradient(top, deeppink, midnightblue);
+    background-image: -moz-linear-gradient(top, deeppink, midnightblue);
+    background-image: linear-gradient(to bottom, deeppink, midnightblue);
+    object-position: center;
+    max-width: 1280px;
+    max-height: 192px;
+    clear: both;
+    suffix: cross-fade("20px");
+    content: contain;
+    content: counter(name);
+    overflow: scroll;
+}
+container:scroll{
+    background-color: rebeccapurple;
+    color: lightblue;
+    scrollbar-arrow-color: lightblue;
+}
+container:fullscreen{
+    shape-margin: initial;
+    shape-outside: border-box;
+}
+container{
+    overflow: scroll;
+}
